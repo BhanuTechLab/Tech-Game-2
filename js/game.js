@@ -1089,9 +1089,9 @@ $.setState = function( state ) {
 			lockedWidth: 299,
 			lockedHeight: 49,
 			scale: 3,
-			title: 'BhanuTechLab',
+			title: 'JS13KGAMES',
 			action: function() {
-				location.href = 'https://github.com/BhanuTechLab';
+				location.href = 'http://js13kgames.com';
 				$.mouse.down = 0;
 			}
 		} );
@@ -1227,7 +1227,7 @@ $.setupStates = function() {
 			ctx: $.ctxmg,
 			x: $.cw / 2,
 			y: $.ch - 172,
-			text: 'CREATED BY BHANU PRAKASH FOR TIMEPASS 2025',
+			text: 'CREATED BY JACK RUGILE FOR JS13KGAMES 2013',
 			hspacing: 1,
 			vspacing: 1,
 			halign: 'center',
@@ -1342,7 +1342,7 @@ $.setupStates = function() {
 			ctx: $.ctxmg,
 			x: $.cw / 2 - 10,
 			y: creditsTitle.ey + 49,
-			text: 'CREATED FOR TIMEPASS BY\nGITHUB\n\nINSTAGRAM\nGAME MATH REFERENCE',
+			text: 'CREATED FOR JS13KGAMES BY\nINSPIRATION AND SUPPORT\n\nAUDIO PROCESSING\nGAME INSPIRATION AND IDEAS\n\nHTML5 CANVAS REFERENCE\n\nGAME MATH REFERENCE',
 			hspacing: 1,
 			vspacing: 17,
 			halign: 'right',
@@ -1359,7 +1359,7 @@ $.setupStates = function() {
 			ctx: $.ctxmg,
 			x: $.cw / 2 + 10,
 			y: creditsTitle.ey + 49,
-			text: 'BHANU PRAKASH\nBhanuTechLab\nBhanu99517\n_g_bhanu_prakash__\nHTML5 ANIMATION WITH JAVASCRIPT',
+			text: '@JACKRUGILE\n@REZONER, @LOKTAR00, @END3R,\n@AUSTINHALLOCK, @CHANDLERPRALL\nJSFXR BY @MARKUSNEUBRAND\nASTEROIDS, CELL WARFARE,\nSPACE PIPS, AND MANY MORE\nNIHILOGIC HTML5\nCANVAS CHEAT SHEET\nBILLY LAMBERTA FOUNDATION\nHTML5 ANIMATION WITH JAVASCRIPT',
 			hspacing: 1,
 			vspacing: 17,
 			halign: 'left',
@@ -1621,4 +1621,3 @@ window.addEventListener( 'load', function() {
 	document.documentElement.className += ' loaded';
 	$.init();
 });
-
