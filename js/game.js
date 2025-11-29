@@ -1089,7 +1089,7 @@ $.setState = function( state ) {
 			lockedWidth: 299,
 			lockedHeight: 49,
 			scale: 3,
-			title: 'INSTAGRAM',
+			title: 'GITHUB PROFILE',
 			action: function() {
 				location.href = 'http://github.com/BhanuTechLab';
 				$.mouse.down = 0;
