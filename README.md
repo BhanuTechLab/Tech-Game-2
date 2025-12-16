@@ -20,12 +20,19 @@ This project focuses on improving front-end development skills while creating an
 ## 📁 Project Structure
 
 Tech-Game-2/
+
 ├── index.html
+
 ├── style.css
+
 ├── script.js
+
 ├── assets/
+
 │ └── images / sounds (if any)
+
 └── README.md
+
 ## 🛠 Customization
 
 - Modify style.css to change colors, layout, or animations
