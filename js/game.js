@@ -982,7 +982,7 @@ $.spawnPowerup = function( x, y ) {
 	if( Math.random() < 0.1 ) {
 		var min = ( $.hero.life < 0.9 ) ? 0 : 1,
 			type = Math.floor( $.util.rand( min, $.definitions.powerups.length ) ),
-			params = $.definitions.powerups[ type ];
+			params = Object.assign( {}, $.definitions.powerups[ type ] );
 		params.type = type;
 		params.x = x;
 		params.y = y;
