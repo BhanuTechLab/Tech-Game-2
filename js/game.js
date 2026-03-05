@@ -658,7 +658,7 @@ $.getSpawnCoordinates = function( radius ) {
 };
 
 $.spawnEnemy = function( type ) {
-	var params = $.definitions.enemies[ type ],
+	var params = Object.assign( {}, $.definitions.enemies[ type ] ),
 		coordinates = $.getSpawnCoordinates( params.radius );
 	params.x = coordinates.x;
 	params.y = coordinates.y;
