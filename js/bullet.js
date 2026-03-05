@@ -60,10 +60,12 @@ $.Bullet.prototype.update = function( i ) {
 
 				if( this.enemiesHit.length > 3 ) {
 					$.bullets.splice( i, 1 );
+					return;
 				}						
 			}
 			if( !this.piercing ) {
 				$.bullets.splice( i, 1 );
+				return;
 			}
 		}
 	}
